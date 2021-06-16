@@ -1,0 +1,13 @@
+########### Instruction for drcl
+
+1. clone create_ap
+2. edit create_ap.comf (SSID and password)
+3. sudo make install
+4. install hostapd (sudo apt-get install hostapd)
+5. run 
+
+    create_ap wlan0 eth0 MyAccessPoint MyPassPhrase
+
+6. systemctl enable create_ap
+7. reboot
+
